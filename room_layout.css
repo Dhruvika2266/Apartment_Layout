@@ -1,0 +1,27 @@
+/* room_layout.css
+
+	Author: Dhruvika Vekariya, 000797455
+ */
+
+h2
+{
+	text-align: center;
+}
+
+#detailImg
+{
+	display: flex;
+	width: 100%;
+	
+}
+
+#detailImg figure
+{
+	flex: 1;
+	width: 100%;
+}
+
+#detailImg figure img
+{
+	width: 100%;
+}

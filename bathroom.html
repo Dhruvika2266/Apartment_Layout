@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+	  <!--Author: Dhruvika Vekariya, 000797455 -->
+	  <meta charset="UTF-8">
+	  <title>Sandy and Leslie's Apartment</title>
+	  <link href="apartment_layout.css"
+	        rel="stylesheet"
+			type="text/css">
+	  <link href="room_layout.css"
+	        rel="stylesheet"
+			type="text/css">
+	</head>
+	
+	<body>
+	
+		<header class="hcenter">
+			<h1>Sandy and Leslie's Apartment</h1>
+			<p>Click a room for a detailed view.</p>
+			
+			<figure>
+				<img src="images/floorplan.jpg"
+				     alt="floorplan"
+					 usemap="#floormap"
+				>
+				<map name="floormap">
+					<area shape="rect"
+						  alt="bedroom"
+						  href="bedroom.html"
+						  coords="418, 23, 555, 136"
+					>
+					<area shape="circle"
+						  alt="bathroom"
+						  href="bathroom.html"
+						  coords="313, 85, 51"
+					>
+					<area shape="rect"
+						  alt="kitchen"
+						  href="kitchen.html"
+						  coords="97, 29, 250, 123"
+					>
+					<area shape="rect"
+						  alt="office"
+						  href="office.html"
+						  coords="391, 143, 566, 249"
+					>
+					<area shape="poly"
+						  alt="living room"
+						  href="livingroom.html"
+						  coords="31, 125, 201, 122, 271, 194, 253, 216, 252, 249, 20, 249"
+					>
+				</map>
+			</figure>
+			
+			<nav>
+				<a href="apartment.html">Apartment</a>
+				<a href="bedroom.html">Bedroom</a>
+				<a href="bathroom.html">Bathroom</a>
+				<a href="livingroom.html">Livingroom</a>
+				<a href="kitchen.html">Kitchen</a>
+				<a href="office.html">Office</a>
+			</nav>
+			<br><br>
+		</header>
+		
+		<h2> Bathroom Details </h2>
+		<div id="detailImg">
+			<figure>
+				<img src="images/bathroom_lg.jpg" alt="bathroom Image">
+			</figure>
+		</div>
+		
+		<div class = "footer">
+			For more information contact: <a href = "#">SandyAndLeslie@example.com</a><br>
+			&copy; Sandy and Leslie 2019
+		</div>
+		
+	</body>
+</html>
